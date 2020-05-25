@@ -64,6 +64,6 @@ app.post('/values', async (req, res) => {
   res.send({ wording: true })
 })
 
-app.listen(5000, err) => {
-  console.log('Listening')
-})
+app.listen(5000, () => {
+  console.log("Server Running");
+});
